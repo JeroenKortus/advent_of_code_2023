@@ -1,7 +1,7 @@
 # Advent of Code 2023
 This repository contains my solutions for the advent of code challenges of 2023. My first year participating in this event!
 
-# Reflection (27/28⭐)
+# Reflection (29/30⭐)
 I was made aware of the existence of this cool challenge by a colleague who thought this would be fun for me... She was right! In this file I'll briefly reflect on each day of the challenge. Going into this my goal is just to try to complete the challenges each day using my own ideas and skills and not worry too much about being among the first to complete it or write beautiful and optimized code. I do however, want to complete the daily challenges on the day of the release, by myself.
 
 ## Day 1 ⭐⭐
@@ -46,7 +46,8 @@ Day 13 did not give me too many problems. For part one I split up the code in fi
 ## Day 14 ⭐⭐
 For part one I made three nested loops that would iteratively move all rounded rocks. I made sure to start at the north so that a place could become free for a rock in the next layer. For part two it was impossible to run it a billion times using the same method. Just like in day 8 it was key to find where the grid would turn into a configuration that was seen earlier and using this repeating pattern to calculate what it would look like at cycle 1.000.000.000. I did have some trouble getting this right as my first cycle was cycle zero and not one, which gave me the wrong answer.
 
-## Day 15 
+## Day 15 ⭐⭐
+On day 15 both parts were easy. In python the `ord()` function can be used to get ASCII values, which makes it easy just to create a simple loop and compute the answer. For part two a bit of organizational skills were needed. But using nested dictionaries and relying on the fact that they have an order to them made it easy to compute the answer for part two.
 
 ## Day 16 
 
