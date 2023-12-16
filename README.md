@@ -49,7 +49,8 @@ For part one I made three nested loops that would iteratively move all rounded r
 ## Day 15 ⭐⭐
 On day 15 both parts were easy. In python the `ord()` function can be used to get ASCII values, which makes it easy just to create a simple loop and compute the answer. For part two a bit of organizational skills were needed. But using nested dictionaries and relying on the fact that they have an order to them made it easy to compute the answer for part two.
 
-## Day 16 
+## Day 16 ⭐⭐
+Day 16 was a fun one which reminded me of day 10. No smart tricks were written into my code to solve part one, just carefully following the steps on the grid and a function that has the result for all possibilities hard coded in it. For part two I used the exact same code and wrapped it in two for loops to check all starting options one by one. The code ended up being very slow, but with a bit of patience I got my answer. (by very slow I mean it took about 12 minutes to run)
 
 ## Day 17 
 
